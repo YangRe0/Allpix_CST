@@ -1,0 +1,15 @@
+model = "init"
+
+
+#region = "Nitride_1.1","Silicon_1","Oxide_1.3","Oxide_1.2","Aluminum_1","Aluminum_2.1","Aluminum_3.1","Aluminum_3.2","Aluminum_4.2","Aluminum_4.1","Aluminum_3.3","Oxide_1.1","Oxide_1.4","Nitride_1.3","Aluminum_2.2","Nitride_1.2"
+
+region = "SubSilicon" "pstop_outer" "topisolation"  "bottomisolation" ###or more
+#observable = "ElectricField"
+#observable = "ElectrostaticPotential"
+observable_units = "" 
+#initial_radius = 1um
+#radius_step = 1um
+#max_radius = 50um
+allow_failure = true
+xyz = x y z
+divisions = # # #
